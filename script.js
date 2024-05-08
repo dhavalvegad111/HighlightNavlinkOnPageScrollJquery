@@ -1,6 +1,6 @@
 // highlight navlink on page scroll
 $(document).ready(function () {
-  $('	header ul.navmenu a[href*=#]').bind('click', function (e) {
+  $('header ul.navmenu a[href*=#]').bind('click', function (e) {
     e.preventDefault();
     var target = $(this).attr("href");
     $('html, body').stop().animate({
